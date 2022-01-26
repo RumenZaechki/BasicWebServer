@@ -27,21 +27,20 @@ Password: <input type='text' name='Password'/>
         private const string Password = "user123";
         public static async Task Main()
         {
-            await DownloadSitesAsTextFile(StartUp.FileName, new string[] { "https://judge.softuni.org/", "https://softuni.org/" });
-            var server = new HttpServer(routes => routes
-         .MapGet("/", new TextResponse("Hello from the server!"))
-         .MapGet("/Redirect", new RedirectResponse("https://softuni.org/"))
-         .MapGet("/HTML", new HtmlResponse(StartUp.HtmlForm))
-         .MapPost("/HTML", new TextResponse("", StartUp.AddFormDataAction))
-         .MapGet("/Content", new HtmlResponse(StartUp.DownloadForm))
-         .MapPost("/Content", new TextFileResponse(StartUp.FileName))
-         .MapGet("/Cookies", new HtmlResponse("", StartUp.AddCokiesAction))
-         .MapGet("/Session", new TextResponse("", StartUp.DisplaySessionInfoAction))
-         .MapGet("/Login", new HtmlResponse(StartUp.LoginForm))
-         .MapPost("/Login", new HtmlResponse("", StartUp.LoginAction))
-         .MapGet("/Logout", new HtmlResponse("", StartUp.LogoutAction))
-         .MapGet("/UserProfile", new HtmlResponse("", StartUp.GetUserDataAction)));
-            await server.Start();
+            await new HttpServer(routes => routes
+            //.MapGet<HomeController>("/", c => c.Index()))
+            //.MapGet<HomeController>("/Redirect", c => c.Redirect())
+            //.MapGet<HomeController>("/HTML", c => c.Html())
+            //.MapPost<HomeController>t("/HTML", c => c.HtmlFormPost())
+            //.MapGet<HomeController>("/Content", c => c.Content())
+            //.MapPost<HomeController>t("/Content", c => c.DownloadContent())
+            //.MapGet<HomeController>("/Cookies", c => c.Cookies())
+            //.MapGet<HomeController>("/Session", c => c.Session()))
+            //.MapGet<HomeController>("/Login", new HtmlResponse(Startup.LoginForm))
+            //.MapPost<HomeController>t("/Login", new HtmlResponse("", Startup.LoginAction))
+            //.MapGet<HomeController>("/Logout", new HtmlResponse("", Startup.LogoutAction))
+            //.MapGet<HomeController>("/UserProfile", new HtmlResponse("", Startup.GetUserDataAction)))
+            .Start();
         }
 
         private static void GetUserDataAction(Request request, Response response)

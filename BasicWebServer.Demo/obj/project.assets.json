@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\My Lord\\source\\repos\\BasicWebServer\\BasicWebServer.Demo\\BasicWebServer.Demo.csproj",
+      "projectUniqueName": "C:\\Users\\My Lord\\Documents\\GitHub\\BasicWebServer\\BasicWebServer.Demo\\BasicWebServer.Demo.csproj",
       "projectName": "BasicWebServer.Demo",
-      "projectPath": "C:\\Users\\My Lord\\source\\repos\\BasicWebServer\\BasicWebServer.Demo\\BasicWebServer.Demo.csproj",
+      "projectPath": "C:\\Users\\My Lord\\Documents\\GitHub\\BasicWebServer\\BasicWebServer.Demo\\BasicWebServer.Demo.csproj",
       "packagesPath": "C:\\Users\\My Lord\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\My Lord\\source\\repos\\BasicWebServer\\BasicWebServer.Demo\\obj\\",
+      "outputPath": "C:\\Users\\My Lord\\Documents\\GitHub\\BasicWebServer\\BasicWebServer.Demo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\My Lord\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -53,8 +53,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\My Lord\\source\\repos\\BasicWebServer\\BasicWebServer.Server\\BasicWebServer.Server.csproj": {
-              "projectPath": "C:\\Users\\My Lord\\source\\repos\\BasicWebServer\\BasicWebServer.Server\\BasicWebServer.Server.csproj"
+            "C:\\Users\\My Lord\\Documents\\GitHub\\BasicWebServer\\BasicWebServer.Server\\BasicWebServer.Server.csproj": {
+              "projectPath": "C:\\Users\\My Lord\\Documents\\GitHub\\BasicWebServer\\BasicWebServer.Server\\BasicWebServer.Server.csproj"
             }
           }
         }

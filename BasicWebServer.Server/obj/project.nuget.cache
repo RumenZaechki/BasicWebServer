@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ULzsqanN2YlyNXJS1uMJn6p2yJDOG8bAZuoWL6DkLaNLW+0yujWxK2w3Ws4CMQcpjTronewRLnE07KcKtNUVzw==",
+  "dgSpecHash": "wdMkFezgVkr8NLdj3Dopmf3aKYvpnJ0GxmP4bOP9DijI+0uFAq8DF1i8vW5v+NgtcEaYCQoYYdW4whwR6YodTQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\My Lord\\source\\repos\\BasicWebServer\\BasicWebServer.Server\\BasicWebServer.Server.csproj",
+  "projectFilePath": "C:\\Users\\My Lord\\Documents\\GitHub\\BasicWebServer\\BasicWebServer.Server\\BasicWebServer.Server.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

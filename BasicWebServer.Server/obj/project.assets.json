@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\My Lord\\source\\repos\\BasicWebServer\\BasicWebServer.Server\\BasicWebServer.Server.csproj",
+      "projectUniqueName": "C:\\Users\\My Lord\\Documents\\GitHub\\BasicWebServer\\BasicWebServer.Server\\BasicWebServer.Server.csproj",
       "projectName": "BasicWebServer.Server",
-      "projectPath": "C:\\Users\\My Lord\\source\\repos\\BasicWebServer\\BasicWebServer.Server\\BasicWebServer.Server.csproj",
+      "projectPath": "C:\\Users\\My Lord\\Documents\\GitHub\\BasicWebServer\\BasicWebServer.Server\\BasicWebServer.Server.csproj",
       "packagesPath": "C:\\Users\\My Lord\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\My Lord\\source\\repos\\BasicWebServer\\BasicWebServer.Server\\obj\\",
+      "outputPath": "C:\\Users\\My Lord\\Documents\\GitHub\\BasicWebServer\\BasicWebServer.Server\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\My Lord\\AppData\\Roaming\\NuGet\\NuGet.Config",
