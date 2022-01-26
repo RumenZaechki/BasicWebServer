@@ -10,3 +10,15 @@ C:\Users\My Lord\source\repos\BasicWebServer\BasicWebServer.Server\obj\Debug\net
 C:\Users\My Lord\source\repos\BasicWebServer\BasicWebServer.Server\obj\Debug\net6.0\BasicWebServer.Server.dll
 C:\Users\My Lord\source\repos\BasicWebServer\BasicWebServer.Server\obj\Debug\net6.0\ref\BasicWebServer.Server.dll
 C:\Users\My Lord\source\repos\BasicWebServer\BasicWebServer.Server\obj\Debug\net6.0\BasicWebServer.Server.pdb
+C:\Users\My Lord\Documents\GitHub\BasicWebServer\BasicWebServer.Server\bin\Debug\net6.0\BasicWebServer.Server.deps.json
+C:\Users\My Lord\Documents\GitHub\BasicWebServer\BasicWebServer.Server\bin\Debug\net6.0\BasicWebServer.Server.dll
+C:\Users\My Lord\Documents\GitHub\BasicWebServer\BasicWebServer.Server\bin\Debug\net6.0\ref\BasicWebServer.Server.dll
+C:\Users\My Lord\Documents\GitHub\BasicWebServer\BasicWebServer.Server\bin\Debug\net6.0\BasicWebServer.Server.pdb
+C:\Users\My Lord\Documents\GitHub\BasicWebServer\BasicWebServer.Server\obj\Debug\net6.0\BasicWebServer.Server.csproj.AssemblyReference.cache
+C:\Users\My Lord\Documents\GitHub\BasicWebServer\BasicWebServer.Server\obj\Debug\net6.0\BasicWebServer.Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\My Lord\Documents\GitHub\BasicWebServer\BasicWebServer.Server\obj\Debug\net6.0\BasicWebServer.Server.AssemblyInfoInputs.cache
+C:\Users\My Lord\Documents\GitHub\BasicWebServer\BasicWebServer.Server\obj\Debug\net6.0\BasicWebServer.Server.AssemblyInfo.cs
+C:\Users\My Lord\Documents\GitHub\BasicWebServer\BasicWebServer.Server\obj\Debug\net6.0\BasicWebServer.Server.csproj.CoreCompileInputs.cache
+C:\Users\My Lord\Documents\GitHub\BasicWebServer\BasicWebServer.Server\obj\Debug\net6.0\BasicWebServer.Server.dll
+C:\Users\My Lord\Documents\GitHub\BasicWebServer\BasicWebServer.Server\obj\Debug\net6.0\ref\BasicWebServer.Server.dll
+C:\Users\My Lord\Documents\GitHub\BasicWebServer\BasicWebServer.Server\obj\Debug\net6.0\BasicWebServer.Server.pdb
