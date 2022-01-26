@@ -43,7 +43,7 @@ Password: <input type='text' name='Password'/>
             }
             return Redirect("/Login");
         }
-        public Response LogoutAction()
+        public Response Logout()
         {
             this.Request.Session.Clear();
             return Html("<h3>Logged out successfully!</h3>");
