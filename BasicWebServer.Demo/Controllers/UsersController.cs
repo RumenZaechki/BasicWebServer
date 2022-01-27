@@ -15,15 +15,11 @@ namespace BasicWebServer.Demo.Controllers
 
         private const string Password = "user123";
 
-        private const string LoginForm = @"<form action='/Login' method='POST'>
-Username: <input type='text' name='Username'/>
-Password: <input type='text' name='Password'/>
-<input type='submit' value ='Log In'/>
-</form>";
+        //private const string LoginForm = @"";
         public UsersController(Request request) : base(request)
         {
         }
-        public Response Login() => Html(UsersController.LoginForm);
+        public Response Login() => View();
 
         public Response LogInUser()
         {

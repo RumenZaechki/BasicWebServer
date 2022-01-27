@@ -13,22 +13,16 @@ namespace BasicWebServer.Demo.Controllers
     {
         private const string FileName = "content.txt";
 
-        private const string HtmlForm = @"<form action='/HTML' method='POST'>
-Name: <input type='text' name='Name'/>
-Age: <input type='number' name='Age'/>
-<input type='submit' value='Save'/>
-</form>";
+        //private const string HtmlForm = @"";
 
-        private const string DownloadForm = @"<form action='/Content' method='POST'>
-<input type='submit' value='Download Sites Content' />
-</form>";
+        //private const string DownloadForm = @"";
 
         public HomeController(Request request) : base(request)
         {
         }
         public Response Index() => Text("Hello from the server!");
         public Response Redirect() => Redirect("https://softuni.org/");
-        public Response Html() => Html(HomeController.HtmlForm);
+        public Response Html() => View();
         public Response HtmlFormPost()
         {
             string formData = string.Empty;
@@ -39,7 +33,7 @@ Age: <input type='number' name='Age'/>
             }
             return Text(formData);
         }
-        public Response Content() => Html(HomeController.DownloadForm);
+        public Response Content() => View();
         private static async Task DownloadSitesAsTextFile(string fileName, string[] urls)
         {
             var downloads = new List<Task<string>>();
