@@ -28,15 +28,5 @@ namespace BasicWebServer.Demo
             .MapGet<UsersController>("/UserProfile", c => c.GetUserData()))
             .Start();
         }
-
-        private static void AddFormDataAction(Request request, Response response)
-        {
-            response.Body = "";
-            foreach (var (key, value) in request.Form)
-            {
-                response.Body += $"{key} - {value}";
-                response.Body += Environment.NewLine;
-            }
-        }
     }
 }
