@@ -14,10 +14,6 @@ namespace BasicWebServer.Demo.Controllers
     {
         private const string FileName = "content.txt";
 
-        //private const string HtmlForm = @"";
-
-        //private const string DownloadForm = @"";
-
         public HomeController(Request request) : base(request)
         {
         }

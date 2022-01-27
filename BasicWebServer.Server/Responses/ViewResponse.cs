@@ -12,7 +12,7 @@ namespace BasicWebServer.Server.Responses
         private const char PathSeparator = '/';
         public ViewResponse(string viewName, string controllerName, object model = null) : base("", ContentType.Html)
         {
-            if (viewName.Contains(PathSeparator))
+            if (!viewName.Contains(PathSeparator))
             {
                 viewName = controllerName + PathSeparator + viewName;
             }
